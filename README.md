@@ -24,7 +24,6 @@ pip install pyftpdlib
 2. 根據需求修改 `users` 清單中的使用者資訊（包括使用者名稱、密碼、家目錄與權限）。
   
   ```python
-  # 定義使用者資料
   users = [
       {"username": "user1", "password": "password1", "home_dir": "ftp/user1", "perm": "elradfmw"},
       {"username": "user2", "password": "password2", "home_dir": "ftp/user2", "perm": "elradfmw"},
